@@ -1,0 +1,1 @@
+Per visualizzare il pdf è possibile farlo o scaricandolo dal repository github oppure visualizzarlo da questo link riportato anche nel template: https://pdfhost.io/v/PPKFZvVV9V_guida_calcolo_fattore_rischio
