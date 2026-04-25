@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fattore di Rischio — Sicurezza sul Lavoro</title>
+  <meta name="description" content="Guida completa al calcolo del fattore di rischio. Scarica il documento PDF con formule, esempi e riferimenti normativi" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+
+
+  <header class="hero">
+    <div class="hero-badge">&#9888; Sicurezza sul Lavoro</div>
+    <div class="hero-icon" aria-hidden="true">&#128737;&#65039;</div>
+    <h1>Calcolo del <em>Fattore di Rischio</em></h1>
+    <p class="subtitle">
+      Guida tecnica completa per la valutazione dei rischi nei luoghi di lavoro.
+      Formule, matrici, esempi pratici e riferimenti normativi aggiornati.
+    </p>
+    <div class="hero-norm" role="list" aria-label="Normative di riferimento">
+    </div>
+  </header>
+
+  <main class="container">
+
+    <div class="matrix-section">
+      <div class="info-card" role="region" aria-labelledby="matrix-heading">
+        <h3 id="matrix-heading">&#128202; Classi di rischio</h3>
+        <div class="risk-row">
+          <span class="risk-badge risk-low">1&ndash;2</span>
+          <div class="risk-label"><strong>Basso</strong> Accettabile &mdash; sorveglianza routinaria</div>
+        </div>
+        <div class="risk-row">
+          <span class="risk-badge risk-med">3&ndash;4</span>
+          <div class="risk-label"><strong>Medio-Basso</strong> Tollerabile con monitoraggio periodico</div>
+        </div>
+        <div class="risk-row">
+          <span class="risk-badge risk-high">6&ndash;9</span>
+          <div class="risk-label"><strong>Medio-Alto</strong> Interventi a breve termine obbligatori</div>
+        </div>
+        <div class="risk-row">
+          <span class="risk-badge risk-vhigh">12&ndash;16</span>
+          <div class="risk-label"><strong>Alto</strong> Inaccettabile &mdash; azione urgente immediata</div>
+        </div>
+      </div>
+
+      <div class="info-card" role="region" aria-labelledby="norm-heading">
+        <h3 id="norm-heading">&#128203; Normative di riferimento</h3>
+        <ul class="norm-list" aria-label="Elenco normative">
+          <li><span class="tag">D.LGS</span><span><strong>D.Lgs. 81/2008</strong> &mdash; Testo Unico Sicurezza, art. 28-29</span></li>
+          <li><span class="tag">ISO</span><span><strong>ISO 31000:2018</strong> &mdash; Risk Management Guidelines</span></li>
+          <li><span class="tag">ISO</span><span><strong>EN ISO 12100:2012</strong> &mdash; Sicurezza macchinario</span></li>
+          <li><span class="tag">ISO</span><span><strong>ISO 11228</strong> &mdash; Ergonomia, MMC</span></li>
+          <li><span class="tag">ISO</span><span><strong>EN ISO 9612:2011</strong> &mdash; Esposizione al rumore</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="download-section" role="region" aria-labelledby="dl-heading">
+      <div class="dl-info">
+        <h2 id="dl-heading">&#128196; Documento PDF completo</h2>
+        <p>
+          Scarica la guida tecnica completa: definizione di rischio informatico, minacce principali e vulnerabilità aziendali, 
+          calcolo del fattore di rischio, 2 esempi pratici e i riferimenti normativi.
+        </p>
+        <div class="dl-meta">
+          <span>&#128196; PDF</span>
+        </div>
+        <a href="fattore_rischio.pdf"
+           download="Calcolo_Fattore_Rischio_DVR.pdf"
+           class="btn-download"
+           aria-label="Scarica il documento PDF sul calcolo del fattore di rischio">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="7 10 12 15 17 10"/>
+            <line x1="12" y1="15" x2="12" y2="3"/>
+          </svg>
+          Scarica PDF
+        </a>
+      </div>
+
+      <div class="qr-area" aria-label="QR code per accesso diretto al documento">
+        <div class="qr-frame">
+          <div id="qrcode"></div>
+        </div>
+        <p class="qr-label">Scansiona per accedere</p>
+      </div>
+    </div>
+
+    <div class="steps-section" role="region" aria-labelledby="steps-heading">
+      <h2 id="steps-heading">&#9881; Processo di valutazione del rischio</h2>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-num">01</div>
+          <div class="step-text">
+            <strong>Contesto</strong>
+            <span>Definizione del contesto in cui si opera.</span>
+          </div>
+        </div>
+        <div class="step-card">
+          <div class="step-num">02</div>
+          <div class="step-text">
+            <strong>Identificazione</strong>
+            <span>Identificazione delle minacce e vulnerabilità.</span>
+          </div>
+        </div>
+        <div class="step-card">
+          <div class="step-num">03</div>
+          <div class="step-text">
+            <strong>Valutazione</strong>
+            <span>Calcolo della probabilità e dellʼimpatto.</span>
+          </div>
+        </div>
+        <div class="step-card">
+          <div class="step-num">04</div>
+          <div class="step-text">
+            <strong>Trattamento del rischio</strong>
+            <span>Definizione di misure di mitigazione.</span>
+          </div>
+        </div>
+        <div class="step-card">
+          <div class="step-num">05</div>
+          <div class="step-text">
+            <strong>Monitoraggio</strong>
+            <span>Controllo continuo delle vulnerabilità.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer role="contentinfo">
+    <p>
+      Project Work: Sicurezza aziendale: Calcolo e Gestione del Rischio.
+    </p>
+    <p>
+      Russo Vincenzo Matricola: 0312302103
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
